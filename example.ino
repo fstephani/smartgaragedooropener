@@ -17,7 +17,7 @@ int buttonState1 = 0; // set inital button state to keep optocoupler Off
 int stickyDisplay = 0; // Prevent the default message on the display to remove flashing
 int snoozeAlert = 0; // Snooze the door mobile app alert
 unsigned long doorTime; // start time of door open alert
-unsigned long alertTime = 9000000; // time to alert mobile app door open in ms, eg 10 minutes = 600000, 15 minutes = 9000000
+unsigned long alertTime = 900000; // time to alert mobile app door open in ms, eg 10 minutes = 600000, 15 minutes = 900000
 
 BlynkTimer timer;
 
